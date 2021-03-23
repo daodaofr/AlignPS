@@ -122,9 +122,9 @@ def gt_roidbs(root):
 # @jit(forceobj=True)
 def main(det_thresh=0.05, gallery_size=-1, ignore_cam_id=True, input_path=None):
     #results_path = '/raid/ljp/code/chao_mmdetection/jobs/dcn_base_focal/'
-    results_path = '/home/yy1/2021/mmdetection-public/work_dirs/' + input_path
-    # thresh = 0.2
 
+    # change here
+    results_path = '/home/yy1/2021/mmdetection-public/work_dirs/' + input_path
     data_root='/home/yy1/2021/data/prw/PRW-v16.04.20/'
     probe_set = load_probes(data_root)
     gallery_set = gt_roidbs(data_root)

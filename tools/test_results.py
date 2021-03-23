@@ -55,9 +55,10 @@ def load_image_index(root_dir, db_name):
 
 if __name__ == "__main__":
     db_name = "psdb_test"
+    # change to your own path
     root_dir = '/home/yy1/2021/data/cuhk'
 
-    with open('/home/yy1/2021/data/cuhk/annotation/test_det.json', 'r') as fid:
+    with open(root_dir + '/annotation/test_new.json', 'r') as fid:
         test_det = json.load(fid)
     id_to_img = dict()
     img_to_id = dict()
@@ -67,6 +68,7 @@ if __name__ == "__main__":
         id_to_img[im_id] = im_name
         img_to_id[im_name] = im_id
 
+    # change to your own working dirs
     results_path = '/home/yy1/2021/mmdetection-public/work_dirs/' + sys.argv[1]
     #results_path = '/home/yy1/2021/mmdetection/work_dirs/fcos_center-normbbox-centeronreg-giou_r50_caffe_fpn_gn-head_dcn_4x4_1x_cuhk_reid_1500_stage1_fpncat_dcn_epoch24_singlescale_focal_x4_bg-2_lconv3dcn_sub_triqueue'
     #results_path = '/raid/yy1/mmdetection/work_dirs/fcos_center-normbbox-centeronreg-giou_r50_caffe_fpn_gn-head_4x4_1x_cuhk_reid_1000_fpncat'
