@@ -1,18 +1,7 @@
-<div align="center">
-  <img src="resources/mmdet-logo.png" width="600"/>
-</div>
-
-**News**: We released the technical report on [ArXiv](https://arxiv.org/abs/1906.07155).
-
-Documentation: https://mmdetection.readthedocs.io/
 
 ## Introduction
 
-MMDetection is an open source object detection toolbox based on PyTorch. It is
-a part of the OpenMMLab project developed by [Multimedia Laboratory, CUHK](http://mmlab.ie.cuhk.edu.hk/).
-
-The master branch works with **PyTorch 1.3 to 1.6**.
-The old v1.x branch works with PyTorch 1.1 to 1.4, but v2.0 is strongly recommended for faster speed, higher performance, better design and more friendly usage.
+This is the implementationn for [Anchor-Free Person Search](https://arxiv.org/abs/2103.11617) in CVPR2021
 
 ![demo image](resources/coco_test_12510.jpg)
 
