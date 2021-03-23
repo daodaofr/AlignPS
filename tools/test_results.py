@@ -69,7 +69,7 @@ if __name__ == "__main__":
         img_to_id[im_name] = im_id
 
     # change to your own working dirs
-    results_path = '/home/yy1/2021/mmdetection-public/work_dirs/' + sys.argv[1]
+    results_path = '/home/yy1/2021/AlignPS/work_dirs/' + sys.argv[1]
     #results_path = '/home/yy1/2021/mmdetection/work_dirs/fcos_center-normbbox-centeronreg-giou_r50_caffe_fpn_gn-head_dcn_4x4_1x_cuhk_reid_1500_stage1_fpncat_dcn_epoch24_singlescale_focal_x4_bg-2_lconv3dcn_sub_triqueue'
     #results_path = '/raid/yy1/mmdetection/work_dirs/fcos_center-normbbox-centeronreg-giou_r50_caffe_fpn_gn-head_4x4_1x_cuhk_reid_1000_fpncat'
     with open(os.path.join(results_path, 'results_1000.pkl'), 'rb') as fid:
