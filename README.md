@@ -13,7 +13,7 @@ This project is released under the [Apache 2.0 license](LICENSE).
 
 ## Installation
 
-Please refer to [install.md](docs/install.md) to install MMdetection.
+This project is developed upon [MMdetection](https://github.com/open-mmlab/mmdetection), please refer to [install.md](docs/install.md) to install MMdetection.
 
 
 ## Dataset
@@ -48,6 +48,16 @@ For PRW, change the paths in these config files: [config1](configs/fcos/prw_base
    ```bash
    sh run_test_prw.sh
    ```
+
+## Performance
+
+### Performance
+|Dataset|Model|Rank1 | mAP | Config | Link |
+|-----|-----|------|-----|------|-----|
+|CUHK-SYSU||AlignPS| 93.1%|93.4%|[cfg](https://github.com/daodaofr/AlignPS/blob/master/configs/fcos/fcos_center-normbbox-centeronreg-giou_r50_caffe_fpn_gn-head_dcn_4x4_1x_cuhk_reid_1500_stage1_fpncat_dcn_epoch24_multiscale_focal_x4_bg-2_lconv3dcn_sub_triqueue_dcn0.py)| ----| 
+|CUHK-SYSU||AlignPS+|94.0%|94.5%|[cfg](https://github.com/daodaofr/AlignPS/blob/master/configs/fcos/fcos_center-normbbox-centeronreg-giou_r50_caffe_fpn_gn-head_dcn_4x4_1x_cuhk_reid_1500_stage1_fpncat_dcn_epoch24_multiscale_focal_x4_bg-2_lconv3dcn_sub_triqueue.py)| ----| 
+|PRW||AlignPS| 45.9%|81.9%|[cfg](https://github.com/daodaofr/AlignPS/blob/master/configs/fcos/prw_base_focal_labelnorm_sub_ldcn_fg15_wd1-3.py)| ----| 
+|PRW||AlignPS+|46.1%|82.1%|[cfg](https://github.com/daodaofr/AlignPS/blob/master/configs/fcos/prw_dcn_base_focal_labelnorm_sub_ldcn_fg15_wd7-4.py)| ----| 
 
 
 ## Citation
