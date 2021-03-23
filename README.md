@@ -51,13 +51,12 @@ For PRW, change the paths in these config files: [config1](configs/fcos/prw_base
 
 ## Performance
 
-### Performance
 |Dataset|Model|Rank1 | mAP | Config | Link |
 |-----|-----|------|-----|------|-----|
-|CUHK-SYSU||AlignPS| 93.1%|93.4%|[cfg](https://github.com/daodaofr/AlignPS/blob/master/configs/fcos/fcos_center-normbbox-centeronreg-giou_r50_caffe_fpn_gn-head_dcn_4x4_1x_cuhk_reid_1500_stage1_fpncat_dcn_epoch24_multiscale_focal_x4_bg-2_lconv3dcn_sub_triqueue_dcn0.py)| ----| 
-|CUHK-SYSU||AlignPS+|94.0%|94.5%|[cfg](https://github.com/daodaofr/AlignPS/blob/master/configs/fcos/fcos_center-normbbox-centeronreg-giou_r50_caffe_fpn_gn-head_dcn_4x4_1x_cuhk_reid_1500_stage1_fpncat_dcn_epoch24_multiscale_focal_x4_bg-2_lconv3dcn_sub_triqueue.py)| ----| 
-|PRW||AlignPS| 45.9%|81.9%|[cfg](https://github.com/daodaofr/AlignPS/blob/master/configs/fcos/prw_base_focal_labelnorm_sub_ldcn_fg15_wd1-3.py)| ----| 
-|PRW||AlignPS+|46.1%|82.1%|[cfg](https://github.com/daodaofr/AlignPS/blob/master/configs/fcos/prw_dcn_base_focal_labelnorm_sub_ldcn_fg15_wd7-4.py)| ----| 
+|CUHK-SYSU|AlignPS| 93.1%|93.4%|[cfg](https://github.com/daodaofr/AlignPS/blob/master/configs/fcos/fcos_center-normbbox-centeronreg-giou_r50_caffe_fpn_gn-head_dcn_4x4_1x_cuhk_reid_1500_stage1_fpncat_dcn_epoch24_multiscale_focal_x4_bg-2_lconv3dcn_sub_triqueue_dcn0.py)| [model](https://drive.google.com/file/d/1WMvvxee15Enca_l9DYzCuOfP1f64zliy/view?usp=sharing)| 
+|CUHK-SYSU|AlignPS+|94.0%|94.5%|[cfg](https://github.com/daodaofr/AlignPS/blob/master/configs/fcos/fcos_center-normbbox-centeronreg-giou_r50_caffe_fpn_gn-head_dcn_4x4_1x_cuhk_reid_1500_stage1_fpncat_dcn_epoch24_multiscale_focal_x4_bg-2_lconv3dcn_sub_triqueue.py)| [model](https://drive.google.com/file/d/12AuG37IPkhyrpHG_kqpUzzoDEEkXlgne/view?usp=sharing)| 
+|PRW|AlignPS| 45.9%|81.9%|[cfg](https://github.com/daodaofr/AlignPS/blob/master/configs/fcos/prw_base_focal_labelnorm_sub_ldcn_fg15_wd1-3.py)| [model](https://drive.google.com/file/d/1QQNoYQTiO3FIiEpu0AtigGFIDf3wG2u5/view?usp=sharing)| 
+|PRW|AlignPS+|46.1%|82.1%|[cfg](https://github.com/daodaofr/AlignPS/blob/master/configs/fcos/prw_dcn_base_focal_labelnorm_sub_ldcn_fg15_wd7-4.py)| [model](https://drive.google.com/file/d/1O02EBrHglE1x-zk88QLLdXF-x6yebwBp/view?usp=sharing)| 
 
 
 ## Citation
