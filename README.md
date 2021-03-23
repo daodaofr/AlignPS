@@ -3,7 +3,7 @@
 
 This is the implementationn for [Anchor-Free Person Search](https://arxiv.org/abs/2103.11617) in CVPR2021
 
-![demo image](resources/coco_test_12510.jpg)
+![demo image](demo/arch.jpg)
 
 
 ## License
