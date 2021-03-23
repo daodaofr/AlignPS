@@ -41,7 +41,7 @@ For PRW, change the paths in these config files: [config1](configs/fcos/prw_base
    ```bash
    sh run_test.sh
    ```
-   Test PRW
+   3. Test PRW
 
    Change the paths in L127 and L128 in [test_results_prw.py](tools/test_results_prw.py)
 
