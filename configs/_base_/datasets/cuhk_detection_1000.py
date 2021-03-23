@@ -1,4 +1,5 @@
 dataset_type = 'CuhkDataset'
+# change to you own path
 data_root = '/home/yy1/2021/data/cuhk/'
 img_norm_cfg = dict(
     mean=[123.675, 116.28, 103.53], std=[58.395, 57.12, 57.375], to_rgb=True)
@@ -34,17 +35,17 @@ data = dict(
     workers_per_gpu=2,
     train=dict(
         type=dataset_type,
-        ann_file=data_root + 'annotation/train_pid_new.json',
+        ann_file=data_root + 'annotation/train_pid_new.json', # change to you own path
         img_prefix=data_root + 'Image/SSM/',
         pipeline=train_pipeline),
     val=dict(
         type=dataset_type,
-        ann_file=data_root + 'annotation/test_new.json',
+        ann_file=data_root + 'annotation/test_new.json', # change to you own path
         img_prefix=data_root + 'Image/SSM/',
         pipeline=test_pipeline),
     test=dict(
         type=dataset_type,
-        ann_file=data_root + 'annotation/test.json',
+        ann_file=data_root + 'annotation/test_new.json', # change to you own path
         img_prefix=data_root + 'Image/SSM/',
         proposal_file=data_root+'annotation/test/train_test/TestG50.mat',
         pipeline=test_pipeline))

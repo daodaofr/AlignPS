@@ -55,20 +55,21 @@ test_pipeline = [
         ])
 ]
 
+# change the path of the dataset
 data_root = '/home/yy1/2021/data/prw/PRW-v16.04.20/'
 data = dict(
     samples_per_gpu=4,
     workers_per_gpu=4,
     train=dict(
-        ann_file=data_root + 'train_pid.json',
+        ann_file=data_root + 'train_pid.json', # change the path of the annotation file
         img_prefix=data_root + 'frames/',
         pipeline=train_pipeline),
     val=dict(
-        ann_file=data_root + 'test_pid.json',
+        ann_file=data_root + 'test_pid.json',  # change the path of the annotation file
         img_prefix=data_root + 'frames/',
         pipeline=test_pipeline),
     test=dict(
-        ann_file=data_root + 'test_pid.json',
+        ann_file=data_root + 'test_pid.json',  # change the path of the annotation file
         img_prefix=data_root + 'frames/',
         proposal_file=data_root+'annotation/test/train_test/TestG50.mat',
         pipeline=test_pipeline)
