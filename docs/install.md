@@ -172,8 +172,8 @@ conda install -c pytorch pytorch torchvision -y
 pip install mmcv-full
 
 # install mmdetection
-git clone https://github.com/open-mmlab/mmdetection.git
-cd mmdetection
+git clone https://github.com/daodaofr/AlignPS.git
+cd AlignPS
 pip install -r requirements/build.txt
 pip install -v -e .
 ```
