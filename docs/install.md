@@ -84,11 +84,11 @@ pip install mmcv-full
 2. You need to run `pip uninstall mmcv` first if you have mmcv installed.
 If mmcv and mmcv-full are both installed, there will be `ModuleNotFoundError`.
 
-d. Clone the mmdetection repository.
+d. Clone this repository.
 
 ```shell
-git clone https://github.com/open-mmlab/mmdetection.git
-cd mmdetection
+git clone https://github.com/daodaofr/AlignPS.git
+cd AlignPS
 ```
 
 e. Install build requirements and then install mmdetection.
