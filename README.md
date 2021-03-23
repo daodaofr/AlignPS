@@ -22,9 +22,9 @@ Download [CUHK-SYSU](https://github.com/ShuangLI59/person_search) and [PRW](http
 
 We provide coco-style annotation in [demo/anno](demo/anno).
 
-For CUHK-SYSU, change the path of your dataset and the annotaion file in the [config file](configs/_base_/datasets/cuhk_detection_1000.py)
+For CUHK-SYSU, change the path of your dataset and the annotaion file in the [config file](configs/_base_/datasets/cuhk_detection_1000.py) L3, L38, L43, L48
 
-For PRW, change these config files: [config1](configs/fcos/prw_base_focal_labelnorm_sub_ldcn_fg15_wd1-3.py) [config2](configs/fcos/prw_dcn_base_focal_labelnorm_sub_ldcn_fg15_wd7-4.py)
+For PRW, change the paths in these config files: [config1](configs/fcos/prw_base_focal_labelnorm_sub_ldcn_fg15_wd1-3.py) [config2](configs/fcos/prw_dcn_base_focal_labelnorm_sub_ldcn_fg15_wd7-4.py)
 
 
 
@@ -46,7 +46,7 @@ For PRW, change these config files: [config1](configs/fcos/prw_base_focal_labeln
    Change the paths in L127 and L128 in [test_results_prw.py](tools/test_results_prw.py)
 
    ```bash
-   sh run_test.sh
+   sh run_test_prw.sh
    ```
 
 
