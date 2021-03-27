@@ -15,6 +15,8 @@ This project is released under the [Apache 2.0 license](LICENSE).
 
 This project is developed upon [MMdetection](https://github.com/open-mmlab/mmdetection), please refer to [install.md](docs/install.md) to install MMdetection.
 
+We utilized mmcv=1.1.5, pytorch=1.7.0
+
 
 ## Dataset
 
