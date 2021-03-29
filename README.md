@@ -1,7 +1,9 @@
 
 ## Introduction
 
-This is the implementation for [Anchor-Free Person Search](https://arxiv.org/abs/2103.11617) in CVPR2021
+This is the implementation for [Anchor-Free Person Search](https://arxiv.org/abs/2103.11617) in CVPR2021.
+
+A brief introduction in Chinese can be found at https://zhuanlan.zhihu.com/p/359617800
 
 ![demo image](demo/arch.jpg)
 
