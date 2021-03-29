@@ -1,7 +1,9 @@
 
 ## Introduction
 
-This is the implementation for [Anchor-Free Person Search](https://arxiv.org/abs/2103.11617) in CVPR2021
+This is the implementation for [Anchor-Free Person Search](https://arxiv.org/abs/2103.11617) in CVPR2021.
+
+A brief introduction in Chinese can be found at https://zhuanlan.zhihu.com/p/359617800.
 
 ![demo image](demo/arch.jpg)
 
@@ -74,3 +76,7 @@ If you use this toolbox or benchmark in your research, please cite this project.
 }
 ```
 
+## Related Works
+[1] Yan et al. Learning Context Graph for Person Search. CVPR 2019. [Code](https://github.com/sjtuzq/person_search_gcn)
+
+[2] Yan et al. Learning Multi-Attention Context Graph for Group-Based Re-Identification. TPAMI 2020. [A New Large-Scale Dataset for Group Re-ID and Group-Aware Person Re-ID](https://github.com/daodaofr/group_reid)
