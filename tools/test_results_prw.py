@@ -141,7 +141,11 @@ def main(det_thresh=0.05, gallery_size=-1, ignore_cam_id=True, input_path=None):
     gallery_det, gallery_feat = [], []
     for det in all_dets:
         gallery_det.append(det[0][:, :5])
-        feat = normalize(det[0][:, 5:], axis=1)
+        if det[0].shape[0] > 0:
+            feat = normalize(det[0][:, 5:], axis=1)
+        else:
+            feat = det[0][:, 5:]
+        # feat = normalize(det[0][:, 5:], axis=1)
         gallery_feat.append(feat)
     
     probe_feat = []
@@ -158,16 +162,16 @@ def main(det_thresh=0.05, gallery_size=-1, ignore_cam_id=True, input_path=None):
         feat = feat[nmax]
         probe_feat.append(feat)
     
-    gallery_det, gallery_feat = [], []
-    for det in all_dets:
+    # gallery_det, gallery_feat = [], []
+    # for det in all_dets:
         # det[0] = det[0][det[0][:, 4]>thresh]
-        gallery_det.append(det[0][:, :5])
+        # gallery_det.append(det[0][:, :5])
         # if det[0].shape[0] > 0:
         #     feat = normalize(det[0][:, 5:], axis=1)
         # else:
         #     feat = det[0][:, 5:]
-        feat = normalize(det[0][:, 5:], axis=1)
-        gallery_feat.append(feat)
+        # feat = normalize(det[0][:, 5:], axis=1)
+        # gallery_feat.append(feat)
     
     search_performance_calc(gallery_set, probe_set, gallery_det, gallery_feat, probe_feat, det_thresh, gallery_size, ignore_cam_id)
 
