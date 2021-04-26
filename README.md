@@ -70,7 +70,7 @@ If you use this toolbox or benchmark in your research, please cite this project.
 ```
 @inproceedings{yan2021alignps,
   title={Anchor-Free Person Search},
-  author={Yichao Yan, Jingpeng Li, Jie Qin, Song Bai, Shengcai Liao, Li Liu, Fan Zhu, Ling Shao},
+  author={Yichao Yan, Jinpeng Li, Jie Qin, Song Bai, Shengcai Liao, Li Liu, Fan Zhu, Ling Shao},
   booktitle={CVPR},
   year={2021}
 }
