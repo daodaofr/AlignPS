@@ -24,7 +24,7 @@ model = dict(
         center_sampling=True,
         conv_bias=True,
         loss_bbox=dict(type='GIoULoss', loss_weight=1.0)))
-resume_from='work_dirs/faster_rcnn_r50_caffe_c4_1x_cuhk_single_two_stage17_6_nae1/latest.pth'
+# resume_from='work_dirs/faster_rcnn_r50_caffe_c4_1x_cuhk_single_two_stage17_6_nae1/latest.pth'
 # schedule settings
 # optimizer
 # training and testing settings
