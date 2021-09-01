@@ -1,3 +1,14 @@
+## Update
+
+We extend AlignPS with an ROI-Align head, which further improves the performance. Details can be found [here].
+
+
+|Dataset|Model|mAP|Rank1| Config | Link |
+|-----|-----|------|-----|------|-----|
+|CUHK-SYSU|ROI-AlignPS| 95.1%|96.0%|[cfg](https://github.com/daodaofr/AlignPS/blob/master/configs/person_search/faster_rcnn_r50_caffe_c4_1x_cuhk_single_two_stage17_6_nae1.py)| [model]()| 
+|PRW|ROI-AlignPS|51.6%|84.4%|[cfg](https://github.com/daodaofr/AlignPS/blob/master/configs/person_search_prw/faster_rcnn_r50_caffe_c4_1x_cuhk_single_two_stage17_6_nae1_prw.py)| [model]()|
+
+
 
 ## Introduction
 
@@ -45,12 +56,18 @@ For PRW, change the paths in these config files: [config1](configs/fcos/prw_base
    ```bash
    sh run_test.sh
    ```
+   ```bash
+   sh run_test_roi.sh
+   ```
    3. Test PRW
 
    Change the paths in L127 and L128 in [test_results_prw.py](tools/test_results_prw.py)
 
    ```bash
    sh run_test_prw.sh
+   ```
+   ```bash
+   sh run_test_roi_prw.sh
    ```
 
 ## Performance
