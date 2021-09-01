@@ -11,5 +11,5 @@ from .person_search_bbox_head_nae_newoim_2input_bn_prw import PersonSearchNormAw
 __all__ = [
     'BBoxHead', 'ConvFCBBoxHead', 'Shared2FCBBoxHead',
     'Shared4Conv1FCBBoxHead', 'DoubleConvFCBBoxHead', 'SABLHead',
-    'PersonSearchNormAwareNewoim2InputBNBBoxHead', 'PersonSearchNormAwareNewoim2InputBNBBoxHeadPRW'
+    'PersonSearchNormAwareNewoim2InputBNBBoxHead', 'PersonSearchNormAwareNewoim2InputBNBBoxHeadPRW', 'BBoxHeadBN'
 ]
