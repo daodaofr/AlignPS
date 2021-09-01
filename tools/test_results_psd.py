@@ -67,7 +67,7 @@ if __name__ == "__main__":
         id_to_img[im_id] = im_name
         img_to_id[im_name] = im_id
 
-    results_path = '/home/jx1/yy1/mmdetection/work_dirs/' + sys.argv[1]
+    results_path = '/home/yy1/2021/AlignPS/work_dirs/' + sys.argv[1]
     #results_path = '/raid/yy1/mmdetection/work_dirs/fcos_center-normbbox-centeronreg-giou_r50_caffe_fpn_gn-head_dcn_4x4_1x_cuhk_reid_1500_stage1_fpncat_dcn_epoch24_multiscale_focal_x4_bg-2_sub_triqueue_nta_nsa'
     #results_path = '/raid/yy1/mmdetection/work_dirs/fcos_center-normbbox-centeronreg-giou_r50_caffe_fpn_gn-head_4x4_1x_cuhk_reid_1000_fpncat'
     with open(os.path.join(results_path, 'results_1000.pkl'), 'rb') as fid:
@@ -101,9 +101,7 @@ if __name__ == "__main__":
 
     all_thresh = [0.2, 0.2, 0.2]
     gallery_dicts_all = [gallery_dicts1, gallery_dicts2, gallery_dicts3]
-    #iou_thresh = 0.6
-    #all_thresh = [0.05, 0.1, 0.15, 0.18, 0.2, 0.22, 0.25]
-    #all_thresh = [0.15 + 0.01 * i for i in range(11)]
+
     for thresh, gallery_dicts in zip(all_thresh, gallery_dicts_all):
         if db_name == "psdb_test":
             gallery_size= 100
