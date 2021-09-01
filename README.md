@@ -5,8 +5,8 @@ We extend AlignPS by augmenting it with an ROI-Align head, which further improve
 
 |Dataset|Model|mAP|Rank1| Config | Link |
 |-----|-----|------|-----|------|-----|
-|CUHK-SYSU|ROI-AlignPS| 95.1%|96.0%|[cfg](https://github.com/daodaofr/AlignPS/blob/master/configs/person_search/faster_rcnn_r50_caffe_c4_1x_cuhk_single_two_stage17_6_nae1.py)| [model]()| 
-|PRW|ROI-AlignPS|51.6%|84.4%|[cfg](https://github.com/daodaofr/AlignPS/blob/master/configs/person_search_prw/faster_rcnn_r50_caffe_c4_1x_cuhk_single_two_stage17_6_nae1_prw.py)| [model]()|
+|CUHK-SYSU|ROI-AlignPS| 95.1%|96.0%|[cfg](https://github.com/daodaofr/AlignPS/blob/master/configs/person_search/faster_rcnn_r50_caffe_c4_1x_cuhk_single_two_stage17_6_nae1.py)| [model](https://drive.google.com/file/d/18zgigxThemBDlTe1dS_XUj8ZpyKJGQ9I/view?usp=sharing)| 
+|PRW|ROI-AlignPS|51.6%|84.4%|[cfg](https://github.com/daodaofr/AlignPS/blob/master/configs/person_search_prw/faster_rcnn_r50_caffe_c4_1x_cuhk_single_two_stage17_6_nae1_prw.py)| [model](https://drive.google.com/file/d/1D6_VChGDnGVK2gkmKFqCP4ShP4nK_sbT/view?usp=sharing)|
 
 
 
