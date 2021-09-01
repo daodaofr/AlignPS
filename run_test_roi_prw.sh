@@ -1,5 +1,5 @@
-# CUHK-SUSU AlignPS
-TESTPATH='faster_rcnn_r50_caffe_c4_1x_cuhk_single_two_stage176_nae1_prw'
+# PRW ROI-AlignPS
+TESTPATH='faster_rcnn_r50_caffe_c4_1x_cuhk_single_two_stage17_6_nae1_prw'
 TESTNAME='prw_roi_alignps.pth'
 
 # Make sure the model path is work_dirs/TESTPATH/TESTNAME, tesults_1000.pkl will be saved in work_dirs/TESTPATH
