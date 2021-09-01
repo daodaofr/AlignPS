@@ -28,10 +28,14 @@ from .sabl_retina_head import SABLRetinaHead
 from .ssd_head import SSDHead
 from .yolo_head import YOLOV3Head
 
+from .fcos_reid_head_focal_sub_triqueue3_prw import FCOSReidHeadFocalSubTriQueue3PRW
+from .fcos_reid_head_focal_sub_triqueue3 import FCOSReidHeadFocalSubTriQueue3
+
 __all__ = [
     'AnchorFreeHead', 'AnchorFreeHeadReid', 'AnchorHead', 'GuidedAnchorHead', 'FeatureAdaption', 
     'RPNHead', 'GARPNHead', 'RetinaHead', 'RetinaSepBNHead', 'GARetinaHead', 
     'SSDHead', 'FCOSHead', 'FCOSReidHead', 'FreeAnchorRetinaHead', 'ATSSHead', 'FSAFHead', 'NASFCOSHead', 'RepPointsHeadReid',
     'PISARetinaHead', 'PISASSDHead', 'GFLHead', 'CornerHead', 'PAAHead', 
-    'YOLOV3Head', 'SABLRetinaHead', 'AnchorFreeHeadReidFpn',  'FCOSReidHeadFocalSubTriQueue', 'FCOSReidHeadFocalOimSub'
+    'YOLOV3Head', 'SABLRetinaHead', 'AnchorFreeHeadReidFpn',  'FCOSReidHeadFocalSubTriQueue', 'FCOSReidHeadFocalOimSub',
+    'FCOSReidHeadFocalSubTriQueue3PRW', 'FCOSReidHeadFocalSubTriQueue3'
 ]
