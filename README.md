@@ -90,11 +90,19 @@ For PRW, change the paths in these config files: [config1](configs/fcos/prw_base
 If you use this toolbox or benchmark in your research, please cite this project.
 
 ```
-@inproceedings{yan2021alignps,
-  title={Anchor-Free Person Search},
-  author={Yichao Yan, Jinpeng Li, Jie Qin, Song Bai, Shengcai Liao, Li Liu, Fan Zhu, Ling Shao},
-  booktitle={CVPR},
-  year={2021}
+@inproceedings{DBLP:conf/cvpr/YanLQBL00021,
+  author    = {Yichao Yan and
+               Jinpeng Li and
+               Jie Qin and
+               Song Bai and
+               Shengcai Liao and
+               Li Liu and
+               Fan Zhu and
+               Ling Shao},
+  title     = {Anchor-Free Person Search},
+  booktitle = {{IEEE} Conference on Computer Vision and Pattern Recognition},
+  pages     = {7690--7699},
+  year      = {2021}
 }
 ```
 
