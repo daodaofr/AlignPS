@@ -57,7 +57,7 @@ For PRW, change the paths in these config files: [config1](configs/fcos/prw_base
    sh run_test.sh
    ```
    
-   For ROI-AlignPS, change the paths in test_results_psd.py(tools/test_results_psd.py)
+   For ROI-AlignPS, change the paths in [test_results_psd.py](tools/test_results_psd.py)
    
    ```bash
    sh run_test_roi.sh
@@ -69,6 +69,8 @@ For PRW, change the paths in these config files: [config1](configs/fcos/prw_base
    ```bash
    sh run_test_prw.sh
    ```
+   For ROI-AlignPS, change the paths in [test_results_psd_prw.py](tools/test_results_psd_prw.py)
+   
    ```bash
    sh run_test_roi_prw.sh
    ```
