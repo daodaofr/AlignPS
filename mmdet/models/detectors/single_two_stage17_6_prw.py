@@ -13,7 +13,7 @@ from ..roi_heads.bbox_heads.oim_nae_new import OIMLoss
 from ..dense_heads.labeled_matching_layer_queue import LabeledMatchingLayerQueue
 from ..dense_heads.unlabeled_matching_layer import UnlabeledMatchingLayer
 from ..dense_heads.triplet_loss import TripletLossFilter
-from ..utils import CLUBSample, CLUB, L1OutUB, VarUB, MINE
+from ..utils import MINE
 
 @DETECTORS.register_module()
 class SingleTwoStageDetector176PRW(BaseDetector):
