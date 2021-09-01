@@ -28,7 +28,7 @@ model = dict(
         loss_bbox=dict(type="L1Loss", loss_weight=1.0),
     ),
     roi_head=dict(
-        type="PersonSearchRoIHead",
+        type="StandardRoIHead",
         shared_head=dict(
             type="ResLayer",
             depth=50,
@@ -46,7 +46,7 @@ model = dict(
             featmap_strides=[16],
         ),
         bbox_head=dict(
-            type="PersonSearchBBoxHead",
+            type="BBoxHead",
             with_avg_pool=True,
             roi_feat_size=7,
             in_channels=2048,
