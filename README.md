@@ -1,3 +1,6 @@
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/efficient-person-search-an-anchor-free/person-search-on-cuhk-sysu)](https://paperswithcode.com/sota/person-search-on-cuhk-sysu?p=efficient-person-search-an-anchor-free)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/efficient-person-search-an-anchor-free/person-search-on-prw)](https://paperswithcode.com/sota/person-search-on-prw?p=efficient-person-search-an-anchor-free)
+
 ## Update
 
 We extend AlignPS by augmenting it with an ROI-Align head, which further improves the performance. Details can be found [here](https://arxiv.org/abs/2109.00211).
