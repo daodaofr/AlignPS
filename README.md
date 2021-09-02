@@ -1,6 +1,6 @@
 ## Update
 
-We extend AlignPS by augmenting it with an ROI-Align head, which further improves the performance. Details can be found [here].
+We extend AlignPS by augmenting it with an ROI-Align head, which further improves the performance. Details can be found [here](https://arxiv.org/abs/2109.00211).
 
 
 |Dataset|Model|mAP|Rank1| Config | Link |
