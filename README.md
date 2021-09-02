@@ -12,7 +12,7 @@ We extend AlignPS by augmenting it with an ROI-Align head, which further improve
 
 ## Introduction
 
-This is the implementation for [Anchor-Free Person Search](https://arxiv.org/abs/2103.11617) in CVPR2021.
+This is the implementation for [Anchor-Free Person Search](https://openaccess.thecvf.com/content/CVPR2021/papers/Yan_Anchor-Free_Person_Search_CVPR_2021_paper.pdf) in CVPR2021 and its extended version [Efficient Person Search: An Anchor-Free Approach](https://arxiv.org/abs/2109.00211).
 
 A brief introduction in Chinese can be found at https://zhuanlan.zhihu.com/p/359617800
 
