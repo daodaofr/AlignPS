@@ -107,5 +107,17 @@ If you use this toolbox or benchmark in your research, please cite this project.
   pages     = {7690--7699},
   year      = {2021}
 }
+
+@article{DBLP:journals/corr/abs-2109-00211,
+  author    = {Yichao Yan and
+               Jinpeng Li and
+               Jie Qin and
+               Shengcai Liao and
+               Xiaokang Yang},
+  title     = {Efficient Person Search: An Anchor-Free Approach},
+  journal   = {CoRR},
+  volume    = {abs/2109.00211},
+  year      = {2021}
+}
 ```
 
